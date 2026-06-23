@@ -1,0 +1,6 @@
+{
+  "name": "Bản Đồ Đỗ Xe Digital Twin 3D",
+  "description": "Bản đồ hiển thị vị trí đỗ xe 3D tương tác đa hướng giúp khách gửi xe theo dõi ô trống và tình trạng bãi đỗ xe xăng thời gian thực.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

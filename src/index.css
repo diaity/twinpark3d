@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-cyan: #1d4ed8; /* Electric cobalt */
+  --color-brand-teal: #0d9488; /* Elegant teal */
+  --color-brand-emerald: #15803d; /* Fresh emerald */
+  --color-brand-pink: #be123c; /* Velvet crimson */
+  --color-brand-orange: #b45309; /* Warm amber */
+  --color-brand-cream: #fafafa; /* Pure linen */
+  --color-brand-slate: #f4f4f5; /* Warm stone-slate */
+}
+
+/* Base resets & sophisticated matte light theme */
+html, body {
+  background-color: #f7f6f2; /* Beautiful raw linen natural white */
+  color: #1c1d21; /* Rich ink charcoal */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Thin high-precision scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7f6f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4e7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4d8;
+}
+
+/* Premium Minimal Panels instead of bulky boxes */
+.industrial-panel {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.premium-card-border {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.matte-shadow {
+  box-shadow: 0 4px 20px -3px rgba(0, 0, 0, 0.04), 0 2px 8px -2px rgba(0, 0, 0, 0.02);
+}
+
+.subtle-grid-overlay {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.009) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.009) 1px, transparent 1px);
+}
+
+
